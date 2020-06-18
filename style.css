@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+
+}
+    
+.h3 {
+    border: solid gray;
+    width: 100px;
+    height: 20px;
+
+}
+
+
+/* h3 {
+background-color: gray;
+width: 100px;
+height: 20px;
+
+
+} */
+    
+    
+    
+    /* Display 20 solid gray rectangles, each 20px high and 100px wide.
+    Display 20 solid gray rectangles, each 20px high, with widths ranging evenly from 105px to 200px (remember #4, above).
+    Display 20 solid gray rectangles, each 20px high, with widths in pixels given by the 20 elements of sampleArray.
+    As in #21, but alternate colors so that every other rectangle is red.
+    As in #21, but color the rectangles with even widths red. */
