@@ -180,10 +180,20 @@ const kata16Heading = document.createElement('h3')
 mainElement.append(kata16Heading)
 kata16Heading.append(`Kata 16: \r`)
 let numSumKata16 = 0
-for (let counter = 1; counter < sampleArray.length; counter++) {
-    numSumKata16 = numSum + sampleArray[counter]
+for (let counter = 0; counter < sampleArray.length; counter++) {
+    numSumKata16 = numSumKata16 + sampleArray[counter]
 }
 kata16Heading.append(numSumKata16)
+
+
+// Kata 7 and 13 are fixed, but I notice that kata 16 is starting at counter = 1 instead of 0, and you are adding numSumKata16 = numSum +... instead of numSumKata16 = numSumKata16 +...  which is giving you the wrong total.
+
+
+
+
+
+
+
 
 
 
